@@ -1,0 +1,23 @@
+.pc-on {
+  @include pc {
+  }
+  @include sp {
+    display: none;
+  }
+}
+.sp-on {
+  @include pc {
+    display: none;
+  }
+  @include sp {
+  }
+}
+
+html {
+  font-family: YuGothic, Yu Gothic Medium, YuGothic M, Yu Gothic, Hiragino Kaku Gothic ProN, Meiryo, Arial, sans-serif;
+  letter-spacing: .06rem;
+  color: $black;
+}
+body {
+  line-height: 1.6;
+}
