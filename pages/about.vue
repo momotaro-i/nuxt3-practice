@@ -2,6 +2,8 @@
   <div>
     <button @click="enableCustomLayout">クリックするとレイアウトが変わります。</button>
     <h1>About Page</h1>
+    <p>Count : {{ counter }}</p>
+    <div><button @click="counter++">+</button></div>
   </div>
 </template>
 
@@ -25,4 +27,7 @@ useHead({
     },
   ],
 });
+
+// const counter = ref(0)
+const counter = useCounter()
 </script>
