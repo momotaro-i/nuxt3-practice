@@ -1,5 +1,6 @@
 <template>
-  <div>
-    <h1>記事一覧ページ</h1>
-  </div>
+  <TemplatesContainer>
+    <OrganismsArticleCard />
+    <AtomsBasicButton label="TOPへ" :is-link="true" linkTo="/" />
+  </TemplatesContainer>
 </template>

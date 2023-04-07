@@ -3,6 +3,7 @@
     <NuxtLink to="/">TOP</NuxtLink>
     <NuxtLink to="/articles">記事一覧</NuxtLink>
     <NuxtLink to="/users">ユーザー一覧</NuxtLink>
+    <NuxtLink to="/search">検索</NuxtLink>
   </div>
 </template>
 
